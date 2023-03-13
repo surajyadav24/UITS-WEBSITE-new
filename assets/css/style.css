@@ -63,11 +63,7 @@ p {
   margin: 0 15px;
   position: relative;
 }
-.navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: auto;
-  justify-content: center;
-}
+
 .nav-item:hover .nav-link {
   color: #b40278;
   transform: scale(1.2);
@@ -390,13 +386,13 @@ section {
   flex-wrap: wrap;
 }
 .card {
-    margin: 19px 24px;
-    text-align: center;
-    max-width: 321px;
-    max-height: 320px;
-    height: 281px;
-    padding: 20px 10px;
-    border-radius: 20px;
+  margin: 19px 24px;
+  text-align: center;
+  max-width: 321px;
+  max-height: 320px;
+  height: 281px;
+  padding: 20px 10px;
+  border-radius: 20px;
 }
 .card:hover {
   transition: 0.5s ease-in-out;
@@ -785,13 +781,13 @@ form label {
 }
 
 .service-icon {
-    margin: 41px 20px;
-    flex-shrink: 0;
-    padding: 30px 30px;
-    height: 130px;
-    width: 130px;
-    border-radius: 50%;
-    border: 2px solid #fff;
+  margin: 41px 20px;
+  flex-shrink: 0;
+  padding: 30px 30px;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 .service-icon .fa-pen-to-square {
   font-size: 72px;
@@ -813,9 +809,8 @@ form label {
   text-align: start;
 }
 .service-block-description h2 {
- 
-    margin-bottom: 25px;
-    color: #1d4c92;
+  margin-bottom: 25px;
+  color: #1d4c92;
   text-align: start;
   font-size: 28px;
   letter-spacing: 0.5px;
@@ -834,7 +829,7 @@ form label {
   background-size: cover;
   background-position: center;
 }
-.abtt-cont-2 p{
+.abtt-cont-2 p {
   font-family: inherit;
   padding: 20px 0px;
   margin: 0 auto;
@@ -846,4 +841,42 @@ form label {
 .abt-uits .abtt-cont-2 p {
   text-align: justify;
 }
+.navbar-toggler {
+  background-repeat: no-repeat;
+  background-image: url(../images/more.png) !important;
+  background-size: cover;
+  background-position: center;
+}
 /* abtsection css END  */
+
+/* Responsive section start here */
+
+@media (min-width: 769px) and (max-width: 2560px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: space-evenly;
+  }
+
+}
+@media (min-width: 280px) and (max-width: 425px) {
+
+.abt-heading-2 h3 {
+  text-align: center !important;
+  line-height: 34px;
+}
+.img-abt-sec img{
+  margin: 40px 0px;
+  width: 100%;
+}.abtt-cont-2 p{
+  text-align: center;
+}
+.sec-wrapper .cta {
+  text-align: center;
+}
+.form-group {
+  padding: 0px 15px;
+}
+}
+
+/* Responsive section start here */
