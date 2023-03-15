@@ -35,6 +35,8 @@ html {
 .cta-btn:hover {
   color: #fff;
 }
+
+
 h1,
 h2,
 h3,
@@ -847,6 +849,15 @@ form label {
   background-size: cover;
   background-position: center;
 }
+/* .slick-slide img {
+    width: 100vw !important;
+  } */
+.hero-section .container-fluid{
+  padding: 0px !important;
+}
+.hero-section .row{
+  padding: 0px !important;
+}
 /* abtsection css END  */
 
 /* Responsive section start here */
@@ -877,6 +888,71 @@ form label {
 .form-group {
   padding: 0px 15px;
 }
+.steps-wrapper{
+    padding: 4px 0px;
+    
+    padding-left: 15px !important;
+    margin: 15px 0px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+}
+.number{
+  left: 0px;
+  position: relative;
+}
+.slider-iamge-transform{
+  display: none !important;
+}
+.steps-wrapper-1{
+  background-image: url("../images/whyus-bg/expert.png");
+  background-size: cover;
+}
+.steps-wrapper-2{
+  background-image: url("../images/whyus-bg/Best.png");
+  background-size: cover;
+}
+.steps-wrapper-3{
+  background-image: url("../images/whyus-bg/smother.png");
+  background-size: cover;
+}
+.steps-wrapper-4{
+  background-image: url("../images/whyus-bg/network.png");
+  background-size: cover;
+}
+.steps-wrapper-5{
+  background-image: url("../images/whyus-bg/time.png");
+  background-size: cover;
+}
+.abt-footer{
+  width: 100%;
+}
+.steps-wrapper h3 {
+  color: #FFF;
+  text-transform: capitalize;
+  font-size: 29px;
+}
+.steps-wrapper p {
+  margin: 0px;
+  padding-bottom: 15px;
+  border-bottom: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 500;
+}
+.slide-img img {
+  min-height: 200px;
+  width: 100%;
+}
+.number {
+  font-size: 90px;
+  color: transparent;
+  -webkit-text-stroke: 1px #FFF;}
+
 }
 
-/* Responsive section start here */
+/* Responsive section END here */
