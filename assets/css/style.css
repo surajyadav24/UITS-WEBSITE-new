@@ -36,7 +36,6 @@ html {
   color: #fff;
 }
 
-
 h1,
 h2,
 h3,
@@ -852,10 +851,10 @@ form label {
 /* .slick-slide img {
     width: 100vw !important;
   } */
-.hero-section .container-fluid{
+.hero-section .container-fluid {
   padding: 0px !important;
 }
-.hero-section .row{
+.hero-section .row {
   padding: 0px !important;
 }
 /* abtsection css END  */
@@ -868,29 +867,28 @@ form label {
     flex-basis: auto;
     justify-content: space-evenly;
   }
-
 }
 @media (min-width: 280px) and (max-width: 425px) {
-
-.abt-heading-2 h3 {
-  text-align: center !important;
-  line-height: 34px;
-}
-.img-abt-sec img{
-  margin: 40px 0px;
-  width: 100%;
-}.abtt-cont-2 p{
-  text-align: center;
-}
-.sec-wrapper .cta {
-  text-align: center;
-}
-.form-group {
-  padding: 0px 15px;
-}
-.steps-wrapper{
+  .abt-heading-2 h3 {
+    text-align: center !important;
+    line-height: 34px;
+  }
+  .img-abt-sec img {
+    margin: 40px 0px;
+    width: 100%;
+  }
+  .abtt-cont-2 p {
+    text-align: center;
+  }
+  .sec-wrapper .cta {
+    text-align: center;
+  }
+  .form-group {
+    padding: 0px 15px;
+  }
+  .steps-wrapper {
     padding: 4px 0px;
-    
+
     padding-left: 15px !important;
     margin: 15px 0px;
     position: relative;
@@ -899,60 +897,137 @@ form label {
     justify-content: flex-start;
     align-items: start;
     flex-direction: column;
+  }
+  .number {
+    left: 0px;
+    position: relative;
+  }
+  .slider-iamge-transform {
+    display: none !important;
+  }
+  .steps-wrapper-1 {
+    background-image: url("../images/whyus-bg/expert.png");
+    background-size: cover;
+  }
+  .steps-wrapper-2 {
+    background-image: url("../images/whyus-bg/Best.png");
+    background-size: cover;
+  }
+  .steps-wrapper-3 {
+    background-image: url("../images/whyus-bg/smother.png");
+    background-size: cover;
+  }
+  .steps-wrapper-4 {
+    background-image: url("../images/whyus-bg/network.png");
+    background-size: cover;
+  }
+  .steps-wrapper-5 {
+    background-image: url("../images/whyus-bg/time.png");
+    background-size: cover;
+  }
+  .abt-footer {
+    width: 100%;
+  }
+  .steps-wrapper h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 29px;
+  }
+  .steps-wrapper p {
+    margin: 0px;
+    padding-bottom: 15px;
+    border-bottom: none;
+    color: #fff;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .slide-img img {
+    min-height: 200px;
+    width: 100%;
+  }
+  .abtt-cont-2 p {
+    font-family: inherit;
+    padding: 10px 0px;
+    font-size: 15px;
+  }
+  .number {
+    font-size: 90px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+  }
+  /* about-us page mobile  */
+  .service-about {
+    padding-top: 0px;
+  }
+  .serv-para {
+    padding: 10px 0px;
+    font-size: 15px;
+  }
+  .sub-heading h3 {
+    font-size: 24px;
+  }
+  .sec-heading h2 {
+    text-transform: capitalize !important;
+    font-size: 28px;
+  }
+  .block-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .service-block-description h2 {
+    text-align: center !important;
+  }
+  .block-wrapper-2 {
+    flex-direction: column !important;
+  }
+  .abt-uits .row {
+    flex-direction: row-reverse !important;
+  }
+  .footer-grid-left {
+    padding: 13px 12px;
 }
-.number{
-  left: 0px;
-  position: relative;
+.service-icon {
+  border: 2px solid #1d4c92;}
+  .abt-uits{
+    padding: 20px 0px;
+  }
+  .abt-uits .row {
+    flex-direction: column-reverse !important;
 }
-.slider-iamge-transform{
-  display: none !important;
+.img-abt-sec{
+  margin: 0px !important;
 }
-.steps-wrapper-1{
-  background-image: url("../images/whyus-bg/expert.png");
-  background-size: cover;
+.img-abt-sec img {
+  margin: 0px !important;
 }
-.steps-wrapper-2{
-  background-image: url("../images/whyus-bg/Best.png");
-  background-size: cover;
+.service-image-wrapper {
+  margin-top: 20%;
 }
-.steps-wrapper-3{
-  background-image: url("../images/whyus-bg/smother.png");
-  background-size: cover;
+.service-icon {
+  margin: 15px 20px;}
+  .career-hero {
+    margin-top: 60px;
 }
-.steps-wrapper-4{
-  background-image: url("../images/whyus-bg/network.png");
-  background-size: cover;
+.career-page-dis {
+  padding-top: 0px;
 }
-.steps-wrapper-5{
-  background-image: url("../images/whyus-bg/time.png");
-  background-size: cover;
+.career-page-dis .company-name-heading h2 {
+  font-size: 50px;}
+  .opening-section {
+    padding-top: 0px;
 }
-.abt-footer{
-  width: 100%;
-}
-.steps-wrapper h3 {
-  color: #FFF;
-  text-transform: capitalize;
-  font-size: 29px;
-}
-.steps-wrapper p {
-  margin: 0px;
-  padding-bottom: 15px;
-  border-bottom: none;
-  color: #fff;
-  font-family: inherit;
-  font-size: 15px;
-  font-weight: 500;
-}
-.slide-img img {
-  min-height: 200px;
-  width: 100%;
-}
-.number {
-  font-size: 90px;
-  color: transparent;
-  -webkit-text-stroke: 1px #FFF;}
+.heading-opening h3 {
+  font-size: 30px;}
+  .job-wrapper {
+ 
+    width: 100%;}
 
+    .job-wrapper h3 {
+      font-size: 15px;}
+  /* about-us page mobile  */
 }
 
 /* Responsive section END here */
