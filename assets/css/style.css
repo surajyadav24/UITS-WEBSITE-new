@@ -1001,7 +1001,7 @@ form label {
   margin: 0px !important;
 }
 .img-abt-sec img {
-  margin: 0px !important;
+  margin: 15px !important;
 }
 .service-image-wrapper {
   margin-top: 20%;
@@ -1027,6 +1027,9 @@ form label {
 
     .job-wrapper h3 {
       font-size: 15px;}
+      .job-wrapper img {
+        width: 40px;
+    }
   /* about-us page mobile  */
 }
 
