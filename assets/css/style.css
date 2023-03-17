@@ -857,6 +857,16 @@ form label {
 .hero-section .row {
   padding: 0px !important;
 }
+.t-a-bannner .container-fluid,.opening-discription-banner .container-fluid,.contact-us-banner .container-fluid,.carrer-banner .container-fluid,.services-wrapper .container-fluid{
+  padding: 0px !important;
+}
+.navbar{
+  padding-top: 1rem;
+  background-color: #ffff;
+}
+.top{
+  top: 100px!important;
+}
 /* abtsection css END  */
 
 /* Responsive section start here */
@@ -1001,7 +1011,7 @@ form label {
   margin: 0px !important;
 }
 .img-abt-sec img {
-  margin: 15px !important;
+  margin: 15px 0px !important;
 }
 .service-image-wrapper {
   margin-top: 20%;

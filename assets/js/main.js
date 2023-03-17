@@ -47,3 +47,6 @@ setInterval(function() {
 
 
 
+if(window.screenY<=159){
+document.querySelectorAll("fixed-top").style="top:200px !important"
+}
