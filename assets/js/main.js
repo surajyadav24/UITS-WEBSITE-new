@@ -23,27 +23,63 @@ $(".slider-iamge-transform").slick({
   vertical: true,
   dots: false,
   arrows: false,
-  autoplaySpeed:2600,
+  autoplaySpeed:1600,
 
 });
 
-
-var numbers = document.getElementsByClassName("number");
-var currentIndex = 0;
-
-setInterval(function() {
-  if (currentIndex >= 0) {
-    numbers[currentIndex].style.color = "transparent";
-  }
-  currentIndex = (currentIndex + 1) % numbers.length;
-  numbers[currentIndex].style.color = "#2f448f"; // 
-  if (currentIndex === 1) {
-    numbers[0].style.color = "transparent";
-  }
-}, 3000);
+// $(".slider-image").slick({
+//   slidesToShow: 5,
+//   autoplay: true,
+//   vertical: true,
+//   dots: false,
+//   arrows: false,
+//   accessibility: false,
+//   autoplaySpeed:1600,
+// });
 
 
 
+// var numbers = document.getElementsByClassName("number");
+// var currentIndex = 0;
 
+// setInterval(function() {
+//   if (currentIndex >= 0) {
+//     numbers[currentIndex].style.color = "transparent";
+//   }
+//   currentIndex = (currentIndex + 1) % numbers.length;
+//   numbers[currentIndex].style.color = "#2f448f"; // 
+//   if (currentIndex === 1) {
+//     numbers[0].style.color = "transparent";
+//   }
+// }, 3000);
 
+// var slideimages = document.getElementsByClassName("slide-img");
+
+// for (var i = 0; i < slideimages.length; i++) {
+//   var numbers= document.getElementsByClassName("number")
+//   var slideimage = slideimages[i];
+//   if (slideimage.classList.contains("slick-active")) {
+//     numbers[0].classList.add("number-color"); 
+//   }
+// }
+// var numbers = document.getElementsByClassName("number");
+// var slideimages = document.getElementsByClassName("slide-img");
+
+// for (var i = 0; i < slideimages.length; i++) {
+//   var slideimage = slideimages[i];
+//   if (slideimage.classList.contains("slick-active")) {
+//     for (var j = 0; j < numbers.length; j++) {
+//       numbers[j].classList.add("number-color"); 
+//     }
+//   }
+// }
+
+// var slickActiveElements = document.querySelectorAll('.slick-active');
+// for (var i = 0; i < slickActiveElements.length; i++) {
+//   var children = slickActiveElements[i].childNodes;
+//   for (var j = 0; j < children.length; j++) {
+//     // Manipulate the child elements here
+//     children[j].style.color = 'red';
+//   }
+// }
 

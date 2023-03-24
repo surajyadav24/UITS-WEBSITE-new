@@ -867,6 +867,16 @@ form label {
 .top{
   top: 100px!important;
 }
+.slick-current .steps-wrapper .number{
+  color:#2f448f !important; 
+}
+.number-color{
+color:#2f448f; 
+}
+.row {
+  --bs-gutter-x: 0rem;}
+  
+.slide-img-6{display: none;}
 /* abtsection css END  */
 
 /* Responsive section start here */
@@ -1014,12 +1024,12 @@ form label {
   margin: 15px 0px !important;
 }
 .service-image-wrapper {
-  margin-top: 20%;
+  margin-top: 13%;
 }
 .service-icon {
   margin: 15px 20px;}
   .career-hero {
-    margin-top: 60px;
+    margin-top: 52px;
 }
 .career-page-dis {
   padding-top: 0px;
@@ -1041,6 +1051,46 @@ form label {
         width: 40px;
     }
   /* about-us page mobile  */
+  /* carrer page css */
+  .position-heading {
+    margin: 0px 0px;
+}
+.position-heading h3 {
+  font-size: 36px;}
+  .position-heading p {
+
+    font-size: 17px;}
+    .company-name-heading h2 {
+      font-size: 30px;}
+      .company-discription p {
+
+        font-size: 14px;
+      }  
+      .job-opening-full{
+        padding: 20px 0px;
+      }  
+      .company-name-heading-2 h2 {
+        font-size: 30px;
+        line-height: 149%;}
+        .what-we-do ul li {
+          font-size: 14px;}
+          .contact-details{
+            padding: 20px 0px;
+          }
+          .contact-us-banner{
+            padding-top: 30px;
+            padding-bottom: 0px;
+          }
+          .details-wrapper {
+            margin: 10px;
+      
+            background: #0f5394;
+        }
+      
+      .detail-bg {
+          background-color: #fff;
+      }
+  /* carrer page css */
 }
 
 /* Responsive section END here */
