@@ -24,18 +24,18 @@ $(".slider-iamge-transform").slick({
   dots: false,
   arrows: false,
   autoplaySpeed:1600,
-
+  pauseOnHover:false,
 });
 
-// $(".slider-image").slick({
-//   slidesToShow: 5,
-//   autoplay: true,
-//   vertical: true,
-//   dots: false,
-//   arrows: false,
-//   accessibility: false,
-//   autoplaySpeed:1600,
-// });
+$(".slider-image-content").slick({
+  autoplay: true,
+  vertical: true,
+  dots: false,
+  slidesToShow: 1,
+  arrows: false,
+  autoplaySpeed:1600,
+  pauseOnHover:false,
+});
 
 
 

@@ -875,7 +875,10 @@ color:#2f448f;
 }
 .row {
   --bs-gutter-x: 0rem;}
-  
+  .slider-image-content .slick-slide{
+    height: 400px !important;
+    padding: 40px 0px;
+  }
 .slide-img-6{display: none;}
 /* abtsection css END  */
 
