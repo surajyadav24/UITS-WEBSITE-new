@@ -22,9 +22,12 @@ $(".slider-iamge-transform").slick({
   autoplay: true,
   vertical: true,
   dots: false,
+  slidesToShow: 1,
   arrows: false,
   autoplaySpeed:1600,
   pauseOnHover:false,
+  focusOnSelect: false,
+  pauseOnFocus: false,
 });
 
 $(".slider-image-content").slick({
@@ -35,6 +38,8 @@ $(".slider-image-content").slick({
   arrows: false,
   autoplaySpeed:1600,
   pauseOnHover:false,
+  focusOnSelect: false,
+  pauseOnFocus: false,
 });
 
 
