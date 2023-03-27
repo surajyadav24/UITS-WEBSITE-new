@@ -158,18 +158,18 @@
               <div class="col-lg-6">
                 <div class=" form-wrapper-cont shadow-lg p-4 my-5 rounded-7 bg-white">
                     <h1 class=" fw-semibold text-gradient">Contact Us</h1>
-                    <form name="contact_form" id="contact_form" action="https://script.google.com/macros/s/AKfycbwgQIok7M9GDHdhdHQb9PQoaxnwwC1gENgE1FkVoooXHNVa6ojj-4Lcs09xrR-JCLUW/exec" method="post">
+                    <form name="contact_form" id="contact_form" action="https://script.google.com/macros/s/AKfycbwgQIok7M9GDHdhdHQb9PQoaxnwwC1gENgE1FkVoooXHNVa6ojj-4Lcs09xrR-JCLUW/exec" method="post" onsubmit="alert('Form submitted!');">
                         <div class="row">
                             <div class="col-md-6 mb-3">
                                 <label class="mb-0">First Name <sup>*</sup></label>
                                 <div class="buyservices_form_div">
-                                    <input type="text" placeholder="First Name" maxlength="128" name="firstname" id="edit-submitted-first-name" size="60" value="" class="form-control required">
+                                    <input type="text" placeholder="First Name" maxlength="128" name="firstname" id="edit-submitted-first-name" size="60" value="" class="form-control " required>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label class="mb-0">Last Name <sup>*</sup></label>
                                 <div class="buyservices_form_div">
-                                    <input type="text" placeholder="Last Name" maxlength="128" name="lastname" id="edit-submitted-last-name" size="60" value="" class="form-control required">
+                                    <input type="text" placeholder="Last Name" maxlength="128" name="lastname" id="edit-submitted-last-name" size="60" value="" class="form-control " required>
                                 </div>
                             </div>
                         </div>
@@ -177,13 +177,13 @@
                             <div class="col-md-6 mb-3">
                                 <label class="mb-0">Designation <sup>*</sup></label>
                                 <div class="buyservices_form_div">
-                                    <input type="text" placeholder="Designation" maxlength="128" name="designation" id="edit-submitted-city" size="60" value="" class="form-control required">
+                                    <input type="text" placeholder="Designation" maxlength="128" name="designation" id="edit-submitted-city" size="60" value="" class="form-control " required>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                               <label class="mb-0">Company <sup>*</sup></label>
                               <div class="buyservices_form_div">
-                                  <input type="text" placeholder="Company" maxlength="128" name="company" id="edit-submitted-company" size="60" value="" class="form-control required">
+                                  <input type="text" placeholder="Company" maxlength="128" name="company" id="edit-submitted-company" size="60" value="" class="form-control " required>
                               </div>
                           </div>
                         </div>
@@ -192,7 +192,7 @@
                             <div class="col-md-6 mb-3">
                                 <label class="mb-0">Email Address <sup>*</sup></label>
                                 <div class="buyservices_form_div">
-                                    <input type="text" placeholder="Email Address" maxlength="128" name="email" id="edit-submitted-email" size="60" value="" class="form-control required email">
+                                    <input type="text" placeholder="Email Address" maxlength="128" name="email" id="edit-submitted-email" size="60" value="" class="form-control email" required >
                                 </div>    
                             </div>
                        
@@ -201,13 +201,13 @@
                             <label class="mb-0">Phone <sup>*</sup></label>
                             <div class="" >
                     <input type="text" placeholder="Phone Number
-                    " class="buyservices_form_div form-control  required phone" name="phone"  id="edit-submitted-phone">
+                    " class="buyservices_form_div form-control   phone" name="phone"  id="edit-submitted-phone" required>
                             </div>
                         </div>
                             <div class="col-md-6 mb-3">
                                 <label class="mb-0">Industry <sup>*</sup></label>
                                 <div class="buyservices_form_div">
-                                    <select name="industry" id="industry" class="form-select lh-lg required">
+                                    <select name="industry" id="industry" class="form-select lh-lg " required>
                                         <option selected="selected" value="">Select</option>
                                         <option value="Information Technology/IT">Information Technology/IT</option>
                                         <option value="Business Process Outsourcing">Business Process Outsourcing</option>
@@ -243,7 +243,7 @@
                             <div class="col-md-12 mb-3">
                                 <label class="mb-0">Message <sup>*</sup></label>
                                 <div class="buyservices_form_div">
-                                    <textarea cols="60" rows="5" name="message" id="edit-submitted-comments" class="form-control required"></textarea>
+                                    <textarea cols="60" rows="5" name="message" id="edit-submitted-comments" class="form-control "   required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +252,7 @@
                                 <div class="form_below_btns">
                               
                                     <div class="buyservices_form_div">
-                                        <input type="submit" class=" cta-btn btn border-0" name="op" value="Get In Touch">
+                                        <input type="submit" name="submit"   class=" cta-btn btn border-0"  value="Get In Touch">
                                     </div>
                                 </div>
                             </div>
@@ -353,7 +353,7 @@
           <div class="col-md-4 footer-grid-left">
             <h6>Connect with us</h6>
             <div class="footer-form">
-            <form id="footer-contact-form" class="form-horizontal" role="form" method="post" action="#">
+            <form id="footer-contact-form" class="form-horizontal" role="form" method="post" action="https://script.google.com/macros/s/AKfycbwgQIok7M9GDHdhdHQb9PQoaxnwwC1gENgE1FkVoooXHNVa6ojj-4Lcs09xrR-JCLUW/exec">
             <div id="note-two"></div>
                   <div id="fields-two">
                   
@@ -449,8 +449,53 @@
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <!-- slider js -->
+    <script>
+      function validateForm() {
+  var firstname = document.forms[0]["firstname"].value;
+  var lastname = document.forms[0]["lastname"].value;
+  var email = document.forms[0]["email"].value;
+  var designation = document.forms[0]["designation"].value;
+  var company = document.forms[0]["company"].value;
+  var phone = document.forms[0]["phone"].value;
+  var industry = document.forms[0]["industry"].value;
+  var message = document.forms[0]["message"].value;
+  if (firstname == "") {
+    alert("firstName must be filled out");
+    return false;
+  }
+  if (lastname == "") {
+    alert("lastName must be filled out");
+    return false;
+  }
+  if (email == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+  if (designation  == "") {
+    alert("designation  must be filled out");
+    return false;
+  }
+  if (company == "") {
+    alert("company must be filled out");
+    return false;
+  }
+  if ( phone== "") {
+    alert("phone must be filled out");
+    return false;
+  }
+  if (industry == "") {
+    alert("industry must be filled out");
+    return false;
+  }
+  if (message == "") {
+    alert("message must be filled out");
+    return false;
+  }
+}
+
+    </script>
 
     <script src="./assets/js/all.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
