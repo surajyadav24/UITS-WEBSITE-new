@@ -892,6 +892,12 @@ color:#2f448f;
   }
 }
 @media (min-width: 280px) and (max-width: 425px) {
+  .nav-item:hover .nav-link {
+    color: #b40278;
+    padding-left: 10px;
+    transform: scale(1.1);
+    transition: 0.2s ease-in;
+}
   .abt-heading-2 h3 {
     text-align: center !important;
     line-height: 34px;

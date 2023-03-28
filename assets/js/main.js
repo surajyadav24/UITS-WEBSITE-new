@@ -15,7 +15,12 @@ $(".slider-2").slick({
   arrows: true,
 });
 
-
+$(document).ready(function() {
+  // Enable Bootstrap dropdown menu auto-closing behavior
+  $('.navbar-nav>li>a').on('click', function(){
+      $('.navbar-collapse').collapse('hide');
+  });
+});
 
 
 $(".slider-iamge-transform").slick({
