@@ -33,7 +33,7 @@ $(".slider-iamge-transform").slick({
   dots: false,
   slidesToShow: 1,
   arrows: false,
-  autoplaySpeed:1600,
+  autoplaySpeed:2000,
   pauseOnHover:false,
   focusOnSelect: false,
   pauseOnFocus: false,
