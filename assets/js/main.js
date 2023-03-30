@@ -21,7 +21,11 @@ $(document).ready(function() {
       $('.navbar-collapse').collapse('hide');
   });
 });
+$('.why-us-section').click(function(e) {
+  e.preventDefault();
 
+
+});
 
 $(".slider-iamge-transform").slick({
   autoplay: true,
