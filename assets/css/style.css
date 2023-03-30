@@ -480,6 +480,7 @@ section {
   text-align: start;
 }
 .steps-wrapper {
+  min-height: 400px;
   padding-left: 25px !important;
   padding: 4px 0px;
   margin-left: 100px;
@@ -503,6 +504,7 @@ section {
 }
 
 .steps-wrapper h3 {
+  margin-top: 15px;
   color: #2f448f;
   text-transform: capitalize;
   font-size: 29px;
@@ -518,7 +520,8 @@ section {
   padding-bottom: 15px;
   border-bottom: 1px solid #2f448f;
   font-family: inherit;
-  font-size: 15px;
+  font-size: 17px;
+  line-height: 25px;
   font-weight: 500;
 }
 .images-wrapper {
@@ -898,6 +901,9 @@ color:#2f448f;
     transform: scale(1.1);
     transition: 0.2s ease-in;
 }
+.slick-current .steps-wrapper .number {
+    color: transparent !important;
+}
   .abt-heading-2 h3 {
     text-align: center !important;
     line-height: 34px;
@@ -931,7 +937,7 @@ color:#2f448f;
     left: 0px;
     position: relative;
   }
-  .slider-iamge-transform {
+ .slider-image {
     display: none !important;
   }
   .steps-wrapper-1 {
@@ -957,6 +963,9 @@ color:#2f448f;
   .abt-footer {
     width: 100%;
   }
+  .cont-btn {
+    margin-bottom: 15px;
+}
   .steps-wrapper h3 {
     color: #fff;
     text-transform: capitalize;
@@ -968,7 +977,8 @@ color:#2f448f;
     border-bottom: none;
     color: #fff;
     font-family: inherit;
-    font-size: 15px;
+    font-size: 17px;
+    line-height: 22px;
     font-weight: 500;
   }
   .slide-img img {

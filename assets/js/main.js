@@ -33,19 +33,18 @@ $(".slider-iamge-transform").slick({
   pauseOnHover:false,
   focusOnSelect: false,
   pauseOnFocus: false,
+  pauseOnFocus: false,
+  responsive: [
+
+    {
+      breakpoint:426,
+      settings: 'unslick',
+    },
+  ],
 });
 
-$(".slider-image-content").slick({
-  autoplay: true,
-  vertical: true,
-  dots: false,
-  slidesToShow: 1,
-  arrows: false,
-  autoplaySpeed:1600,
-  pauseOnHover:false,
-  focusOnSelect: false,
-  pauseOnFocus: false,
-});
+
+
 
 
 
