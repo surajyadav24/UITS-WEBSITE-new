@@ -517,6 +517,7 @@ section {
 }
 .steps-wrapper p {
   margin: 0px;
+  text-align: justify;
   padding-bottom: 15px;
   font-family: inherit;
   font-size: 17px;
