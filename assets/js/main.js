@@ -7,12 +7,20 @@ $(".slider").slick({
   autoplay: true,
   dots: false,
   arrows: true,
+  focusOnSelect: false,
+  pauseOnFocus: false,
+  autoplaySpeed:1600,
+  pauseOnFocus: false,
 });
 
 $(".slider-2").slick({
   autoplay: true,
   dots: false,
   arrows: true,
+  autoplaySpeed:1600,
+  focusOnSelect: false,
+  pauseOnFocus: false,
+  pauseOnFocus: false,
 });
 
 $(document).ready(function() {

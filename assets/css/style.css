@@ -502,7 +502,9 @@ section {
   left: -100px;
   top: -18px;
 }
-
+.buyservices_form_div {
+  margin-right: 10px;
+}
 .steps-wrapper h3 {
   margin-top: 15px;
   color: #2f448f;
@@ -513,7 +515,7 @@ section {
   width: 577px;
   height: 461px;
   display: block;
-  margin-top: 53px;
+  margin-top: 38px;
 }
 .steps-wrapper p {
   margin: 0px;
