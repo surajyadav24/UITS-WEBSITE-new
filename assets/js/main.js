@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   new WOW().init();
 });
@@ -9,7 +8,7 @@ $(".slider").slick({
   arrows: true,
   focusOnSelect: false,
   pauseOnFocus: false,
-  autoplaySpeed:1600,
+  autoplaySpeed: 1600,
   pauseOnFocus: false,
 });
 
@@ -17,22 +16,20 @@ $(".slider-2").slick({
   autoplay: true,
   dots: false,
   arrows: true,
-  autoplaySpeed:1600,
+  autoplaySpeed: 1600,
   focusOnSelect: false,
   pauseOnFocus: false,
   pauseOnFocus: false,
 });
 
-$(document).ready(function() {
+$(document).ready(function () {
   // Enable Bootstrap dropdown menu auto-closing behavior
-  $('.navbar-nav>li>a').on('click', function(){
-      $('.navbar-collapse').collapse('hide');
+  $(".navbar-nav>li>a").on("click", function () {
+    $(".navbar-collapse").collapse("hide");
   });
 });
-$('.why-us-section').click(function(e) {
+$(".why-us-section").click(function (e) {
   e.preventDefault();
-
-
 });
 
 $(".slider-iamge-transform").slick({
@@ -41,24 +38,63 @@ $(".slider-iamge-transform").slick({
   dots: false,
   slidesToShow: 1,
   arrows: false,
-  autoplaySpeed:2000,
-  pauseOnHover:false,
+  autoplaySpeed: 2000,
+  pauseOnHover: false,
   focusOnSelect: false,
   pauseOnFocus: false,
   pauseOnFocus: false,
   responsive: [
-
     {
-      breakpoint:426,
-      settings: 'unslick',
+      breakpoint: 426,
+      settings: "unslick",
     },
   ],
 });
 
+var Contact_form = document.getElementById("contact_form");
 
+if (Contact_form) {
+    Contact_form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      fetch(Contact_form.action, {
+        method: "POST",
+        body: new FormData(document.getElementById("contact_form")),
+      })
+        .then((response) => response.json())
+        .then((html) => {
+          // var allInputs = document.querySelectorAll('input');
+          //  allInputs.forEach(singleInput => singleInput.value = '');
+          swal({
+            title: "Thank you for contacting us! ",
+            text: "We appreciate you contacting us. Our team will get back in touch with you soon! Have a great day!",
+            icon: "success",
+          });
+          document.getElementById("contact_form").reset();
+        });
+    });
+}
 
+// footer
 
+var footer_form = document.getElementById("footer-contact-form");
+footer_form.addEventListener("submit", (e) => {
+  e.preventDefault();
+  fetch(footer_form.action, {
+    method: "POST",
+    body: new FormData(document.getElementById("footer-contact-form")),
+  })
+    .then((response) => response.json())
+    .then((html) => {
+      swal({
+        title: "Thank you for connecting with us! ",
+        text: "We appreciate you contacting us. Our team will get back in touch with you soon! Have a great day!",
+        icon: "success",
+      });
+      document.getElementById("footer-contact-form").reset();
+    });
 
+  console.log(FormData);
+});
 
 // var numbers = document.getElementsByClassName("number");
 // var currentIndex = 0;
@@ -68,7 +104,7 @@ $(".slider-iamge-transform").slick({
 //     numbers[currentIndex].style.color = "transparent";
 //   }
 //   currentIndex = (currentIndex + 1) % numbers.length;
-//   numbers[currentIndex].style.color = "#2f448f"; // 
+//   numbers[currentIndex].style.color = "#2f448f"; //
 //   if (currentIndex === 1) {
 //     numbers[0].style.color = "transparent";
 //   }
@@ -80,7 +116,7 @@ $(".slider-iamge-transform").slick({
 //   var numbers= document.getElementsByClassName("number")
 //   var slideimage = slideimages[i];
 //   if (slideimage.classList.contains("slick-active")) {
-//     numbers[0].classList.add("number-color"); 
+//     numbers[0].classList.add("number-color");
 //   }
 // }
 // var numbers = document.getElementsByClassName("number");
@@ -90,7 +126,7 @@ $(".slider-iamge-transform").slick({
 //   var slideimage = slideimages[i];
 //   if (slideimage.classList.contains("slick-active")) {
 //     for (var j = 0; j < numbers.length; j++) {
-//       numbers[j].classList.add("number-color"); 
+//       numbers[j].classList.add("number-color");
 //     }
 //   }
 // }
@@ -103,4 +139,3 @@ $(".slider-iamge-transform").slick({
 //     children[j].style.color = 'red';
 //   }
 // }
-
